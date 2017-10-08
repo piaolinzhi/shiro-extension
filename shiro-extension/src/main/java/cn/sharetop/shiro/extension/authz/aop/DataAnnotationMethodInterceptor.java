@@ -15,7 +15,9 @@ import org.apache.shiro.authz.aop.AuthorizingAnnotationMethodInterceptor;
 import org.apache.shiro.util.StringUtils;
 
 import cn.sharetop.shiro.extension.spring.annotation.RequiresData;
-
+/**
+ *数据权限注解的逻辑执行类
+ */
 public class DataAnnotationMethodInterceptor  
 	extends AuthorizingAnnotationMethodInterceptor {
 	
